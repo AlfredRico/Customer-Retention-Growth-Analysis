@@ -1,0 +1,28 @@
+table,column,description
+customers,customer_id,Unique customer identifier
+customers,signup_date,Date the customer first subscribed
+customers,industry,Customer industry; intentionally contains inconsistent labels and missing values
+customers,company_size,Customer size category
+customers,region,Customer region; contains some missing values
+customers,plan_type,Subscription plan at signup
+customers,acquisition_channel,Marketing or sales channel that acquired the customer
+subscriptions,subscription_id,Unique subscription-month record identifier
+subscriptions,customer_id,Foreign key to customers
+subscriptions,month,Billing month
+subscriptions,monthly_revenue,Revenue billed in the month
+subscriptions,upgraded,Whether the customer upgraded that month
+subscriptions,downgraded,Whether the customer downgraded that month
+subscriptions,refund_amount,Refund amount issued that month
+usage_metrics,logins,Number of logins during the month
+usage_metrics,active_days,Number of days active during the month
+usage_metrics,features_used,Number of distinct product features used; includes missing values
+usage_metrics,avg_session_minutes,Average session length in minutes
+support_tickets,ticket_id,Support ticket identifier; duplicates intentionally exist
+support_tickets,created_date,Date support ticket was created
+support_tickets,severity,Ticket severity; intentionally inconsistent labels
+support_tickets,resolution_hours,Hours to resolve ticket; includes missing values
+support_tickets,category,Support ticket category
+experiments,experiment_group,A/B test assignment group; includes inconsistent capitalization
+experiments,assignment_date,Date assigned to experiment
+churn,active,"1 if customer is active, 0 if churned"
+churn,churn_date,Date customer churned; missing if still active
