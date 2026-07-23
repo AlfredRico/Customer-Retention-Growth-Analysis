@@ -24,7 +24,7 @@ When customer retention weakens, a company can lack visibility into which custom
 
 ![Customer Retention & Churn Risk Dashboard](images/tableau_dashboard.png)
 
-https://public.tableau.com/app/profile/alfred.rico/viz/CustomerRetentionChurnAnalysis_17821991224520/CustomerRetentionChurnRiskDashboard
+[View the Interactive Customer Retention & Churn Risk Dashboard on Tableau Public](https://public.tableau.com/app/profile/alfred.rico/viz/CustomerRetentionChurnAnalysis_17821991224520/CustomerRetentionChurnRiskDashboard)
 
 ---
 
@@ -256,6 +256,6 @@ Finally, the onboarding experiment suggests that simply introducing customers to
 
 ## Ecosystem
 
-Portfolio webpage → Project hub and navigation: https://alfredrico.github.io/
+Portfolio webpage → [Project hub and navigation](https://alfredrico.github.io/)
 
-GitHub → Project repositories featuring UV management for reproducibility: https://github.com/AlfredRico
+GitHub → [Project repositories featuring UV management for reproducibility](https://github.com/AlfredRico)
