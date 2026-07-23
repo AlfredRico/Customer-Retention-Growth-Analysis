@@ -2,7 +2,6 @@
 
 Python | SQL | Hypothesis Testing | A/B Testing | K-Means Clustering | Classification Modeling | Tableau
 
----
 
 **Project Overview**  
 
@@ -38,7 +37,6 @@ This project uses **UV** for fast, deterministic environment management.
 Install UV (official guide):
 https://docs.astral.sh/uv/getting-started/
 
----
 ### ▶️ Run Locally (Step-by-Step)
 
 ```bash
@@ -53,7 +51,6 @@ uv sync
 uv run jupyter lab
 ```
 
----
 ### 📂 Open the Project
 
 Once Jupyter Lab opens in your browser:
@@ -67,7 +64,6 @@ Once Jupyter Lab opens in your browser:
 
 3. Run all cells from top to bottom  
 
----
 ### 🧠 Notes
 
 - The environment is fully defined by:
@@ -76,7 +72,6 @@ Once Jupyter Lab opens in your browser:
 - No manual package installation is required  
 - Results are fully reproducible across systems  
 
----
 
 ## Repository Structure
 
@@ -115,7 +110,6 @@ customer_retention_growth/
 └── .gitignore
 ```
 
----
 
 ## Technologies Used
 
@@ -140,7 +134,6 @@ customer_retention_growth/
 - Jupyter Notebook
 - uv
 
----
 
 ## Project Workflow
 
@@ -173,7 +166,6 @@ Customer information was originally distributed across multiple relational table
 
 SQL joins and aggregate queries were used to consolidate these tables into a single customer-level analytical dataset containing approximately **14,800 customers**.
 
----
 
 ### Data Preparation
 
@@ -190,7 +182,6 @@ The analytical dataset was prepared through:
 
 Business-specific features were also engineered, including lifetime revenue, average monthly revenue, recent login activity, customer tenure, support metrics, and customer segments.
 
----
 
 ### Exploratory Data Analysis
 
@@ -207,7 +198,6 @@ EDA focused on identifying differences between retained and churned customers by
 
 These analyses established the relationships later confirmed through statistical testing and predictive modeling.
 
----
 
 ### Statistical Analysis
 
@@ -215,7 +205,6 @@ Hypothesis testing was used to determine whether observed relationships represen
 
 An A/B test evaluating a proposed onboarding intervention found **no statistically significant reduction in customer churn**, suggesting the current onboarding strategy was not effective at improving retention.
 
----
 
 ### Customer Segmentation
 
@@ -223,7 +212,6 @@ K-Means clustering identified four distinct customer segments based on customer 
 
 One segment consistently demonstrated lower engagement, lower revenue, and substantially higher churn, making it the highest priority group for future retention efforts.
 
----
 
 ### Predictive Modeling
 
@@ -245,7 +233,6 @@ The Random Forest model achieved the strongest overall performance, producing th
 
 Feature importance analysis identified revenue, tenure, engagement, and customer segment membership as the strongest predictors of customer churn.
 
----
 
 ## Overall Summary
 
